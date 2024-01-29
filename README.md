@@ -42,6 +42,15 @@ Interact with the project by:
 
 ## Project Details
 
+### Screenshots
+![Screenshot 2024-01-29 174332](https://github.com/iamkiranrajput/web-chat-app/assets/68410560/a426ab01-f577-4eeb-9383-1a15d30187f0)
+![Screenshot 2024-01-29 174345](https://github.com/iamkiranrajput/web-chat-app/assets/68410560/ba7d746a-b73f-4d42-bef9-23ff753f17cc)
+![Screenshot 2024-01-29 174418](https://github.com/iamkiranrajput/web-chat-app/assets/68410560/27d87557-a2b1-4b0c-821e-9055fedc17e9)
+![Screenshot 2024-01-29 174133](https://github.com/iamkiranrajput/web-chat-app/assets/68410560/abc716c0-9d26-4bfd-928f-de4cfc6c2659)
+
+
+
+
 ### Project Structure
 
 The project follows a structured organization with clear separation of HTML, CSS, and PHP files. Key components include:
