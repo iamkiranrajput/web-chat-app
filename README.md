@@ -1,12 +1,9 @@
 # Web Chat App
 
-![Project Logo](images/chat-app-logo.png)
 
 ## Overview
 
 The Web Chat App is a real-time messaging application designed to enable users to communicate with each other. This project utilizes HTML, CSS, JavaScript, jQuery, Bootstrap, PHP, and MySQL. It is intended to run on a web server, and XAMPP is recommended for local development.
-
-![Project Screenshot](images/chat-app-screenshot.png)
 
 ## Prerequisites
 
