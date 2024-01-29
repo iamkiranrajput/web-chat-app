@@ -1,6 +1,7 @@
 # Web Chat App
 
-![image](https://github.com/iamkiranrajput/web-chat-app/assets/68410560/2b7d3bbd-55c0-45f0-99bb-9a668743ba0c)
+![image](https://github.com/iamkiranrajput/web-chat-app/assets/68410560/ac47128e-9fdd-4c07-8f1e-4a6487d56a2a)
+
 
 ## Overview
 
