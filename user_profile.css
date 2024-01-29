@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(49, 47, 47);
+}
+.header p{
+    color: white;
+}
+
+.buttons {
+    display: flex;
+}
+
+.button1,
+.button2 {
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+.buttons .button1{
+background-color: green;
+border-radius: 4px;
+}
+.buttons .button2{
+background-color: white;
+border-radius: 4px;
+color: black;
+}
+.button1:hover,.button2:hover{
+text-decoration: underline;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.updates {
+    flex: 1;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 20px 30px 1px 20px;
+    margin-right: 20px;
+    background-color: rgb(40, 162, 121);
+    width:50px;
+    text-align: justify;
+}
+
+.message {
+    flex: 1;
+    max-width: 600px;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 10px;
+}
+.msg-submit{
+    background-color: rgb(32, 54, 163);
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+.updates h4{
+    color: rgb(218, 207, 193);
+}
+.updates p{
+    font-weight: 600;
+    color: rgb(29, 28, 28);
+    margin-top: 2px;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .buttons {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    .button1,
+    .button2 {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .main-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .updates,
+    .message {
+        max-width: 100%;
+        margin-right: 0;
+    }
+}
