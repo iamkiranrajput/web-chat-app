@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['img'])) {
         <script>alert("password not match");</script>
         <?php
     } else {
-        // $hashed = password_hash($pass, PASSWORD_DEFAULT);
+        // $hashed = passzword_hash($pass, PASSWORD_DEFAULT);
 
         // Check if the username is already registered
         $check = "SELECT * FROM registration WHERE username ='$username'";
